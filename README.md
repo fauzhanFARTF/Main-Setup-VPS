@@ -13,7 +13,7 @@ Dokumentasi ini berisi langkah-langkah dasar yang perlu dilakukan saat pertama k
 3. [Konfigurasi Sudo](docs/3_Sudo.md)  
    Panduan untuk memberikan hak akses sudo kepada pengguna tertentu tanpa perlu login sebagai root.
 
-4. [Konfigurasi SSH](4_Config SSH.md)  
+4. [Konfigurasi SSH](docs/4_Config_SSH.md)  
    Cara mengamankan akses SSH ke VPS kamu, termasuk mengganti port default dan menonaktifkan login root.
 
 5. [Firewall dengan UFW (Uncomplicated Firewall)](docs/5_Ufw.md)  
