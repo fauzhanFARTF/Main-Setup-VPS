@@ -67,7 +67,7 @@ Misalnya kamu mau kasih akses sudo ke user bernama fauzhan.
          fauzhan@srv534216:~# exit
       ```
     
-      Atau pindah ke user sudo dengan nama 'superuser' menggunakan perintah
+      Atau pindah ke user sudo selain nama 'fauzhan' menggunakan perintah
 
       ```bash
          su - <username>
@@ -92,9 +92,9 @@ root@srv534216:~# usermod -aG sudo fauzhan
 
 Dokumentasi :
 
-<video width="640" height="360" controls>
+<!-- <video width="640" height="360" controls>
   <source src="/Users/fauzannurrachman/Sites/Course/VPS/Config/Main Setup VPS/video/3.2 Add User to Sudo.mp4" type="video/mp4">
-</video>
+</video> -->
 
 ## 💻 Verifikasi Groups
 Untuk Verifikasi bahwa user sudah masuk ke grup sudo, Kamu bisa cek dengan:
@@ -108,21 +108,21 @@ fauzhan : fauzhan sudo
 ```
 Dokumentasi :
 
-<video width="640" height="360" controls>
+<!-- <video width="640" height="360" controls>
   <source src="/Users/fauzannurrachman/Sites/Course/VPS/Config/Main Setup VPS/video/3.3 Verifikasi Grup Sudo.mp4" type="video/mp4">
-</video>
+</video> -->
 
 
 ## 💻 Test Instalasi
 Untuk mengecek apakah hak akses telah berfungsi dengan baik alangkah baiknya kita coba script update paket yang tersedia
 ```bash
-  fauzhan@srv534216:~# sudo apt update
+  fauzhan@srv534216:~# sudo apt update -y && apt upgrade -y
 ```
 Dokumentasi :
 
-<video width="640" height="360" controls>
+<!-- <video width="640" height="360" controls>
   <source src="/Users/fauzannurrachman/Sites/Course/VPS/Config/Main Setup VPS/video/3.4 Sudo apt update.mp4" type="video/mp4">
-</video>
+</video> -->
 
 ## 💻 Tips 
 Agar kita mendapatkan hak akes penuh ke user root (superuser) maka sudo su adalah pilihan yang tepat
@@ -133,9 +133,9 @@ Agar kita mendapatkan hak akes penuh ke user root (superuser) maka sudo su adala
 
 ```bash
 fauzhan@srv534216:~$ sudo su
+```
 
-
-root@srv534216:/home/fauzhan# apt update
+root@srv534216:/home/fauzhan# ```bash apt update -y && apt upgrade -y```
 
 Hit:1 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
 Hit:2 http://in.archive.ubuntu.com/ubuntu jammy InRelease
