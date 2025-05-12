@@ -116,7 +116,7 @@ Dokumentasi :
 ## 💻 Test Instalasi
 Untuk mengecek apakah hak akses telah berfungsi dengan baik alangkah baiknya kita coba script update paket yang tersedia
 ```bash
-  fauzhan@srv534216:~# sudo apt update -y && apt upgrade -y
+  fauzhan@srv534216:~# sudo apt update
 ```
 Dokumentasi :
 
@@ -133,9 +133,9 @@ Agar kita mendapatkan hak akes penuh ke user root (superuser) maka sudo su adala
 
 ```bash
 fauzhan@srv534216:~$ sudo su
-```
 
-root@srv534216:/home/fauzhan# ```bash apt update -y && apt upgrade -y```
+
+root@srv534216:/home/fauzhan# apt update
 
 Hit:1 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
 Hit:2 http://in.archive.ubuntu.com/ubuntu jammy InRelease
