@@ -97,10 +97,10 @@ root@srv534216:~# nano /etc/ssh/sshd_config
 
 - Masukan port 2221 untuk mengganti port default 22
 
-- <img src="/Users/fauzannurrachman/Sites/Course/VPS/Config/Main Setup VPS/image/4.1 Port.png" alt="Deskripsi Gambar" width="640">
+<!-- - <img src="/Users/fauzannurrachman/Sites/Course/VPS/Config/Main Setup VPS/image/4.1 Port.png" alt="Deskripsi Gambar" width="640"> -->
 
 - Rubah PermitRootLogin dari yes menjadi no (Menolak login root - disarankan untuk keamanan)
-- <img src="/Users/fauzannurrachman/Sites/Course/VPS/Config/Main Setup VPS/image/4.2 PermitRootLogin.png" alt="Deskripsi Gambar" width="640">
+<!-- - <img src="/Users/fauzannurrachman/Sites/Course/VPS/Config/Main Setup VPS/image/4.2 PermitRootLogin.png" alt="Deskripsi Gambar" width="640"> -->
 
 
 Setelah itu lakukan restart system menggunakan
@@ -110,9 +110,9 @@ root@srv534216:~# systemctl restart sshd
 ```
 Dokumentasi : 
 
-<video width="640" height="360" controls>
+<!-- <video width="640" height="360" controls>
   <source src="/Users/fauzannurrachman/Sites/Course/VPS/Config/Main Setup VPS/video/4.1 Config SSH.mp4" type="video/mp4">
-</video>
+</video> -->
 
 ## 💻 Kesimpulan
 
