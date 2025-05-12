@@ -162,7 +162,7 @@ fauzhan@srv534216:~$
 
 Dokumentasi :
 
-<video width="640" height="360" controls>
+<!-- <video width="640" height="360" controls>
   <source src="/Users/fauzannurrachman/Sites/Course/VPS/Config/Main Setup VPS/video/3.5 Apt Update Root.mp4" type="video/mp4">
-</video>
+</video> -->
 
