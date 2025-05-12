@@ -1,6 +1,9 @@
 # 📦 1. Perbaharui Paket
 
-Perintah `apt update -y && apt upgrade -y`
+Perintah 
+```bash
+   apt update -y && apt upgrade -y
+```
 
 Perintah ini biasa dijalankan di sistem operasi berbasis Debian/Ubuntu (seperti Ubuntu Server) untuk memperbarui paket perangkat lunak di sistem. Berikut penjelasan bagian per bagiannya:
 
