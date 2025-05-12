@@ -200,6 +200,6 @@ sudo ufw disable
 
 - Dokumentasi :
 
-     <video width="640" height="360" controls>
+     <!-- <video width="640" height="360" controls>
      <source src="/Users/fauzannurrachman/Sites/Course/VPS/Config/Main Setup VPS/video/5.1 Ufw.mp4" type="video/mp4">
-     </video>
+     </video> -->
