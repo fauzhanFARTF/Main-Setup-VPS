@@ -12,12 +12,12 @@ Perintah ini biasa dijalankan di sistem operasi berbasis Debian/Ubuntu (seperti 
 
 ## 💻 Perintah Lengkap
 
-root@srv534216:~# apt update -y && apt upgrade -y
+###### root@srv534216:~# apt update -y && apt upgrade -y
 
 
 ## 💻 Penjelasan bagian per bagian:
 
-root@srv534216:~#
+###### root@srv534216:~#
 
 Ini adalah prompt shell yang menunjukkan bahwa perintah dijalankan oleh pengguna root pada server bernama srv534216, dan direktori kerja saat ini adalah home directory (~).
 
