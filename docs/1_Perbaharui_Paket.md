@@ -119,4 +119,54 @@ No user sessions are running outdated binaries.
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
 
 root@srv534216:~# 
+
+root@srv534216:~# apt update && apt full-upgrade -y
+Hit:1 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Hit:2 http://in.archive.ubuntu.com/ubuntu jammy InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu jammy InRelease
+Hit:4 http://in.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu jammy-security InRelease
+Hit:6 http://in.archive.ubuntu.com/ubuntu jammy-backports InRelease
+Hit:7 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:8 http://in.archive.ubuntu.com/ubuntu jammy-security InRelease
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+1 package can be upgraded. Run 'apt list --upgradable' to see it.
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Calculating upgrade... Done
+The following package was automatically installed and is no longer required:
+  linux-headers-5.15.0-138
+Use 'apt autoremove' to remove it.
+The following packages will be REMOVED:
+  linux-headers-5.15.0-138-generic linux-image-5.15.0-138-generic linux-modules-5.15.0-138-generic
+The following packages have been kept back:
+  cloud-init
+0 upgraded, 0 newly installed, 3 to remove and 1 not upgraded.
+After this operation, 153 MB disk space will be freed.
+(Reading database ... 123833 files and directories currently installed.)
+Removing linux-headers-5.15.0-138-generic (5.15.0-138.148) ...
+Removing linux-modules-5.15.0-138-generic (5.15.0-138.148) ...
+Removing linux-image-5.15.0-138-generic (5.15.0-138.148) ...
+I: /boot/vmlinuz.old is now a symlink to vmlinuz-5.15.0-135-generic
+I: /boot/initrd.img.old is now a symlink to initrd.img-5.15.0-135-generic
+/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-5.15.0-138-generic
+/etc/kernel/postrm.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/50-cloudimg-settings.cfg'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-5.15.0-139-generic
+Found initrd image: /boot/initrd.img-5.15.0-139-generic
+Found linux image: /boot/vmlinuz-5.15.0-135-generic
+Found initrd image: /boot/initrd.img-5.15.0-135-generic
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+done
+
+root@srv534216:~# 
 ```
