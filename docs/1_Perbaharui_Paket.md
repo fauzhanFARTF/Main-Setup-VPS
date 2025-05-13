@@ -12,16 +12,20 @@ Perintah ini biasa dijalankan di sistem operasi berbasis Debian/Ubuntu (seperti 
 
 ## 💻 Perintah Lengkap
 
-  #### root@srv534216:~# apt update -y && apt upgrade -y
-
+```bash
+root@srv534216:~# apt update -y && apt upgrade -y
+```
 
 ## 💻 Penjelasan bagian per bagian:
 
-  #### root@srv534216:~#
-
+```bash
+root@srv534216:~#
+```
 Ini adalah prompt shell yang menunjukkan bahwa perintah dijalankan oleh pengguna root pada server bernama srv534216, dan direktori kerja saat ini adalah home directory (~).
 
-  #### apt update -y && apt upgrade -y
+```bash
+apt update -y && apt upgrade -y
+```
 
 1. apt: apt adalah alat baris perintah untuk mengelola paket di sistem berbasis Debian/Ubuntu. Ini digunakan untuk menginstal, menghapus, memperbarui, dan mengelola paket perangkat lunak.
 2. update : update akan mengambil informasi terbaru dari repositori paket. Artinya, sistem akan mengecek apakah ada versi baru dari paket yang tersedia.
@@ -32,13 +36,12 @@ Ini adalah prompt shell yang menunjukkan bahwa perintah dijalankan oleh pengguna
 ## 💻 Kesimpulan
 
 Kesimpulan:
-Perintah ini akan:
-
-Mengecek daftar paket terbaru dari repositori (apt update).
+Perintah ini akan Mengecek daftar paket terbaru dari repositori (apt update).
 
 Jika berhasil, langsung melanjutkan untuk memperbarui semua paket yang sudah diinstal ke versi terbaru yang tersedia (apt upgrade), tanpa meminta konfirmasi (-y).
 
 Kalau kamu butuh versi yang lebih aman, biasanya orang juga menambahkan:
+
 ```bash
 apt update && apt full-upgrade -y
 ```
