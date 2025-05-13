@@ -2,7 +2,7 @@
 
 Perintah 
 ```bash
-echo apt update -y && apt upgrade -y
+apt update -y && apt upgrade -y
 ```
 
 Perintah ini biasa dijalankan di sistem operasi berbasis Debian/Ubuntu (seperti Ubuntu Server) untuk memperbarui paket perangkat lunak di sistem. Berikut penjelasan bagian per bagiannya:
@@ -11,15 +11,15 @@ Perintah ini biasa dijalankan di sistem operasi berbasis Debian/Ubuntu (seperti 
 
 ## 💻 Perintah Lengkap
 
-```bash
-    root@srv534216:~# apt update -y && apt upgrade -y
-```
+
+ ### root@srv534216:~# apt update -y && apt upgrade -y
+
 
 
 ## 💻 Penjelasan bagian per bagian:
 
 ```bash
-    root@srv534216:~#
+root@srv534216:~#
 ```
 Ini adalah prompt shell yang menunjukkan bahwa perintah dijalankan oleh pengguna root pada server bernama srv534216, dan direktori kerja saat ini adalah home directory (~).
 
