@@ -9,7 +9,7 @@ adduser fauzhan
 ## 💻 Perintah Lengkap
 
 ```bash
-    root@srv534216:~# adduser fauzhan
+root@srv534216:~# adduser fauzhan
 ```
 
 ## 💻 Penjelasan Perintah : 
@@ -42,10 +42,10 @@ Meminta informasi tambahan (yang bisa dikosongkan):
 
 Dokumentasi :
 
-<video width="640" height="360" controls>
+<!-- <video width="640" height="360" controls>
   <source src="/Users/fauzannurrachman/Sites/Course/VPS/Config/Main Setup VPS/video/2.1 Manajemen Pengguna.mp4" type="video/mp4">
   Browser kamu nggak support tag video.
-</video>
+</video> -->
 
 ## 💻 Masuk ke pengguna baru:
 Untuk Masuk ke pengguna baru dari root. Kita dapat megetikkan perintah
@@ -59,9 +59,9 @@ su - fauzhan
 ```
 Dokumentasi :
 
-<video width="640" height="360" controls>
+<!-- <video width="640" height="360" controls>
   <source src="/Users/fauzannurrachman/Sites/Course/VPS/Config/Main Setup VPS/video/2.2 Masuk ke Pengguna.mp4" type="video/mp4">
-</video>
+</video> -->
 
 ## 💻 Tips Tambahan
 Untuk menambahkan pengguna ke grup tertentu (misalnya sudo), gunakan:
